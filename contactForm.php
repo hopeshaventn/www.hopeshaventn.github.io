@@ -1,7 +1,7 @@
 <?php
-    $name = $_POST['name'];
+    #$name = $_POST['name'];
     $vistor_email = $_POST['email'];
-    $message = $_POST
+    #$message = $_POST['message'];
 
     $email_from = 'zachbianucci@gmail.com';
     $email_subject = "I want to stay in touch!";
