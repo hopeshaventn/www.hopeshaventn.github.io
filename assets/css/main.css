@@ -1806,6 +1806,8 @@ input, select, textarea {
 	}
 		.logo img {
 			display: block;
+			padding-top: 20px;
+			height: 100%;
 			/*width: 100%;*/
 		}
 
