@@ -2065,7 +2065,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: rgb(75,153,96);
-			border-color: rgba(243, 88, 88, 0.5);
+			border-color: rgb(75,153,96);
 		}
 
 /* Icons */
@@ -2157,7 +2157,7 @@ input, select, textarea {
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("../../images/promo.jpg");
+		background-image: url("images/overlay.png"), url("../../images/parachuteKid.jpeg");
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
@@ -2347,7 +2347,7 @@ input, select, textarea {
 		#hero .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0);
-			color: #f08c89;
+			color: rgb(75,153,96);
 			font-size: 1.25em;
 		}
 
