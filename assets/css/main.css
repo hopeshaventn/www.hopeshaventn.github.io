@@ -2145,6 +2145,7 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg,#122217 40%, #225231 75%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #122217 40%, #225231 75%);*/
 		background-color:#122217;
+		/*background-color:#ffffff;*/
 		/*background-color:rgb(75, 153, 96);*/
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
@@ -2229,7 +2230,7 @@ input, select, textarea {
 				}
 
 				#nav > ul > li > span, #nav > ul > li > a {
-					color: rgb(255, 255, 255);
+					color:#ffffff;
 					text-decoration: none;
 					outline: 0;
 					border: 0;
