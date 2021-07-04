@@ -94,8 +94,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
-article,
+article
 aside,
 details,
 figcaption,
@@ -174,7 +173,10 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+iframe{
+  display: block;
+  align-self: auto;
+}
 body {
   background: #f5f7fa;
   font-family: "Source Sans Pro", sans-serif;
