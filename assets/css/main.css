@@ -180,7 +180,7 @@ iframe{
 body {
   background: #f5f7fa;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   color: #52575c;
   line-height: 1.75em;
   font-size: 14pt;
@@ -203,7 +203,7 @@ input,
 textarea,
 select {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 350;
   color: #52575c;
   line-height: 1.75em;
   font-size: 15pt;
@@ -215,7 +215,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+  font-weight: 350;
   color: #52575c;
 }
 
@@ -2045,7 +2045,7 @@ form .actions {
 
 form label {
   display: block;
-  font-weight: 300;
+  font-weight: 350;
   color: #52575c;
   margin: 0 0 0.5em 0;
 }
@@ -2150,9 +2150,9 @@ button,
     background-color 0.25s ease-in-out;
   display: inline-block;
   color: inherit;
-  background: none;
+  background: none;/*rgb(75, 153, 96); originally none*/
   text-decoration: none;
-  border: solid 1px #c2c7cc;
+  border: solid 2px #c2c7cc;
   border-radius: 0.35em;
   padding: 0.8em 2em 0.8em 2em;
   cursor: pointer;
@@ -2260,7 +2260,7 @@ button:hover,
 #promo-wrapper {
   position: relative;
   background-image: url("images/overlay.png"),
-    url("../../images/parachuteKid.jpeg");
+    url("../../images/kids/parachuteKid.jpeg");
   background-size: 192px 192px, cover;
   background-position: top left, center center;
   color: #fff;
@@ -3300,3 +3300,56 @@ button:hover,
   display: table;
   clear: both;
 }
+
+/*button animation*/
+/* .button {
+  z-index: 1;
+  position: relative;
+  font: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  color: #42474c;
+  font-weight: 250;
+  padding: 0.5em 1em;
+  border: solid 1px #42474c;
+  border-radius: 0.35em;
+  padding: 0.8em 2em 0.8em 2em;
+  cursor: pointer;
+  outline: 0;
+  background-color: none;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+
+}
+
+.button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5em;
+  height: 1em;
+  font: inherit;
+  border: solid 1px rgb(75, 153, 96);
+  border-radius: .35em;
+  background-color: rgb(75, 153, 96);
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform .45s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: white;
+  border: rgb(75, 153, 96);
+}
+
+.button:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+  border: rgb(75, 153, 96);
+}
+button:hover::after {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+  border: rgb(75, 153, 96);
+} */
