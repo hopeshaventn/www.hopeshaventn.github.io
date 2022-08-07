@@ -94,8 +94,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-article
-aside,
+article aside,
 details,
 figcaption,
 figure,
@@ -173,7 +172,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-iframe{
+iframe {
   display: block;
   align-self: auto;
 }
@@ -2150,7 +2149,7 @@ button,
     background-color 0.25s ease-in-out;
   display: inline-block;
   color: inherit;
-  background: none;/*rgb(75, 153, 96); originally none*/
+  background: none; /*rgb(75, 153, 96); originally none*/
   text-decoration: none;
   border: solid 2px #c2c7cc;
   border-radius: 0.35em;
@@ -3238,7 +3237,6 @@ button:hover,
   }
 }
 
-
 /*email hover*/
 /* #email .container {
   position: relative;
@@ -3247,12 +3245,12 @@ button:hover,
 
 #email .image {
   opacity: 1;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
 #email .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -3279,8 +3277,8 @@ button:hover,
   padding: 16px 32px;
 }
 
-#email #href:hover{
-  color:white;
+#email #href:hover {
+  color: white;
 }
 
 /* Create two equal columns that floats next to each other */
@@ -3306,18 +3304,15 @@ button:hover,
   float: left;
   width: 25%;
   /* height: 5vh; */
-  padding: 10px;
+  /* padding: 10px; */
+  padding: .02% .25%;
 }
 
 /* Style the images inside the grid */
 .column-gallery img {
-  width:100%;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column-gallery img:hover {
+  width: 100%;
   opacity: 1;
+  cursor: pointer;
 }
 
 /* Clear floats after the columns */
@@ -3331,6 +3326,13 @@ button:hover,
 .container-gallery {
   position: relative;
   display: none;
+}
+
+.expimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 /* Expanding image text */
